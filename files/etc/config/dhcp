@@ -35,7 +35,7 @@ config dhcp 'wan'
 	option ignore '1'
 
 config odhcpd 'odhcpd'
-	option maindhcp '1'
+	option maindhcp '0'
 	option leasefile '/tmp/hosts/odhcpd'
 	option leasetime '12h'
 	option dhcpv6 'server'
