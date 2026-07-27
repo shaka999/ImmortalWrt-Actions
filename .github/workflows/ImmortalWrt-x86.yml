@@ -69,7 +69,6 @@ jobs:
     - name: Update feeds
       run: |
         cd immortalwrt && ./scripts/feeds update -a
-        rm -rf ./feeds/packages/net/mosdns && cp -r -f ./feeds/immortalwrt/mosdns ./feeds/packages/net/mosdns
 
     - name: Install feeds
       run: |
